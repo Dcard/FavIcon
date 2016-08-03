@@ -9,4 +9,5 @@ Pod::Spec.new do |spec|
   spec.source       = { :git => "https://github.com/Dcard/FavIcon.git", :branch => "master", :tag => "1.0.9"}
   spec.source_files = 'FavIcon/**/*.{h,m,swift}', 'LibXML2/**/*.{h,m}'
   spec.framework    = 'Foundation', 'UIKit'
+  spec.ios.library  = 'xml2'
 end
